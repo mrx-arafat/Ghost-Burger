@@ -9,6 +9,7 @@ body {
   font-size: 16px;
   letter-spacing: -2%;
 }
+/* header part */
 header {
   background-color: #f7f7f7;
   padding: 50px 30px;
@@ -36,7 +37,7 @@ header .left .ghost {
   letter-spacing: -2%;
 }
 
-header .btn {
+.btn {
   display: inline-block;
   margin-top: 49px;
   font-weight: 700;
@@ -44,10 +45,13 @@ header .btn {
   text-decoration: none;
   border-radius: 25px;
   padding: 15px 40px;
-  background-image: linear-gradient(orange, tomato);
+  background-image: linear-gradient(to top right, #fba24f 10%, #ff1e1e);
   box-shadow: 0px 2px 30px 0px rgba(252, 143, 73, 0.5);
 }
-header .left p {
+.btn:hover {
+  transform: translateY(-3px);
+}
+.left p {
   margin-top: 40px;
   font-size: 20px;
   line-height: 1.6;
@@ -58,6 +62,44 @@ header .left p {
 
 header .right img {
   margin-left: 15%;
-  width: 85%;
-  border-radius: 35px;
+  width: 75%;
 }
+/* first section */
+.first-section {
+  background-image: url(images/shapes/Frame\ 58.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section .container {
+  margin: 0px 100px 0px 100px;
+  padding-top: 50px;
+  display: flex;
+}
+
+.first-section .right img {
+  margin-left: 5%;
+  width: 100%;
+}
+
+.first-section .right .text-area {
+  margin-top: 160px;
+  padding: 0px 48px;
+}
+.first-section .right .text-area h1 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 54px;
+  margin-bottom: 32px;
+  color: #585858;
+}
+
+.first-section .right .text-area p {
+  font-size: 18px;
+  font-weight: 450;
+  line-height: 32px;
+  color: #18191f;
+  margin-bottom: 10px;
+  /* .btn margin top 49px */
+}
+/* second section */
