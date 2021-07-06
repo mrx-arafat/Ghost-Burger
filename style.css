@@ -185,3 +185,27 @@ section .container {
   line-height: 26px;
   color: #18191f;
 }
+/* footer */
+footer {
+  padding: 50px 540px;
+  display: block;
+  text-align: center;
+  background-color: black;
+}
+footer .ghost {
+  color: orangered;
+}
+footer h1 {
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 35px;
+  color: #5b5b5b;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: white;
+}
