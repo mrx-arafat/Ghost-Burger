@@ -5,4 +5,4 @@ Developed By Easin Arafat
 
 [Ghost Burger Page Link](https://mrx-arafat.github.io/Ghost-Burger/)
 
-Only For Desktop view
+NB: only For Desktop view
